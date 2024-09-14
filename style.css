@@ -1,0 +1,42 @@
+.container{
+    margin: auto;
+    margin-top: 10px;
+    width: 225px;
+    height: 300px;
+    background-image: url(images.jpg);
+}
+
+.form{
+    margin: auto;
+    margin-top: 10px;
+    width: 700px;
+    height: 400px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 20px;
+    align-content: center;
+}
+
+.login{
+    margin: auto;
+    width: 600px;
+    height: 300px;
+    align-content: center;
+}
+
+.button{
+    margin: auto;
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+}
+
+.btnLogin{
+    margin: auto;
+    height: 50px;
+    width: 200px;
+    background-color: cornflowerblue;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}

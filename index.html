@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <style>
+            .container{
+                margin: auto;
+                margin-top: 10px;
+                width: 225px;
+                height: 300px;
+                background-image: url(images.jpg);
+            }
+
+            .form{
+                margin: auto;
+                margin-top: 10px;
+                width: 700px;
+                height: 400px;
+                background-color: rgb(230, 230, 230);
+                border-radius: 20px;
+                align-content: center;
+            }
+
+            .login{
+                margin: auto;
+                width: 600px;
+                height: 300px;
+                align-content: center;
+            }
+
+            .button{
+                margin: auto;
+                height: 100px;
+                width: 200px;
+            }
+
+            .btnLogin{
+                margin: auto;
+                margin-top: 10px;
+                height: 50px;
+                width: 200px;
+                background-color: cornflowerblue;
+                border: 0px;
+                border-radius: 10px;
+                color: white;
+                font-size: 18px;
+            }
+
+            .btnLogin:hover{
+                background-color: rgb(71, 114, 194);
+            }
+
+            .SingUp{
+                width: 90px;
+                height: auto;
+                margin: auto;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        </div>
+
+        <div class="form">
+            <div class="login">
+                <form action="connect.php" method="post"> 
+                    <div class="mb-3">
+                      <label class="form-label">Username</label>
+                      <input type="text" class="form-control" id="userName" name="userName">
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Password</label>
+                      <input type="password" class="form-control" id="password" name="password">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <div class="button">
+                        <button type="submit" class="btnLogin" id="login" name="login">Login</button>
+                        <div class="SingUp">
+                            <a href="singup.html">SingUp Now</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    </body>
+</html>
